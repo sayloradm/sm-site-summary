@@ -1,0 +1,98 @@
+@media only screen and (max-width: 375px) {
+
+    h1 {
+        font-size: 25px;
+        left: 25px;
+        top: 40px;
+    }
+
+    h3 {
+        top: 58px;
+        left: 26px;
+        font-size: 16px;
+    }
+    
+    .mobileHr{
+        position: absolute;
+        top: 110px;
+        left: 22px;
+        width: 330px;
+    }
+
+    .dark-mode-toggle {
+        position: absolute;
+        top: 120px;
+        left: 23px;
+    }
+
+    .react-toggle {
+        left: 285px;
+        bottom: 43px;
+    }
+
+    .topCard {
+        margin-top: 0px;
+        margin-left: 0px;
+        position: absolute;
+        top: 210px;
+        left: 25px;
+        width: 330px;
+        height: 290px;
+    }
+
+    #twitter {
+        left: 25px;
+        top: 550px;
+    }
+
+    #instagram {
+        left: 25px;
+        top: 890px;
+    }
+
+    #youtube {
+        left: 25px;
+        top: 1230px;
+    }
+    
+    #overview {
+        top: 1575px;
+        left: 25px;
+    }
+
+    .bottomCard {
+        left: 25px !important;
+    }
+
+    #fbViews {
+        top: 1675px;
+    }
+
+    #fbLikes {
+        top: 1835px;
+    }
+
+    #iLikes {
+        top: 1995px;
+    }
+
+    #iViews {
+        top: 2155px;
+    }
+
+    #tRt {
+        top: 2475px;
+    }
+
+    #tLikes {
+        top: 2315px;
+    }
+
+    #ytViews {
+        top: 2795px;
+    }
+
+    #ytLikes {
+        top: 2635px;
+    }
+}

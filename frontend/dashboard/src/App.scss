@@ -1,0 +1,405 @@
+/* Default colors */
+:root {
+  --background: hsl(0, 0%, 100%);
+  --card-background: hsl(227, 47%, 96%);
+  --primary-text: hsl(230, 17%, 14%);
+  --secondary-text: hsl(228, 12%, 44%);
+  --top-background: hsl(225, 100%, 98%);
+  --toggle-knob: hsl(0, 0%, 100%);
+  --dark-mode-text: hsl(228, 12%, 44%);
+  --hover-brightness: brightness(95%);
+}
+
+/* Dark mode colors */
+[data-theme='dark'] {
+  --background: hsl(230, 17%, 14%);
+  --card-background: hsl(228, 28%, 20%);
+  --primary-text: hsl(0, 0%, 100%);
+  --secondary-text: hsl(228, 34%, 66%);
+  --top-background: hsl(232, 19%, 15%);
+  --toggle-knob: hsl(228, 28%, 20%);
+  --dark-mode-text: hsl(0, 0%, 100%);
+  --hover-brightness: brightness(120%);
+}
+
+body {
+  width: 1440px;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  color: var(--primary-text);
+  margin: 0;
+  position: absolute;
+  top: 70px;
+  left: 180px;
+  font-weight: 700;
+}
+
+h3 {
+  position: absolute;
+  top: 90px;
+  left: 180px;
+  color: var(--secondary-text);
+}
+
+h4 {
+  color: var(--dark-mode-text);
+}
+
+h5{
+  color: var(--secondary-text);
+  position: absolute;
+  font-weight: 400;
+  font-size: 20px;
+  top: 95px;
+  left: 75px;
+}
+
+/* page background styling */
+.backGround {
+  background-color: var(--background);
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+
+/* background header styling */
+.bg-header {
+  background-color: var(--top-background);
+  width: 100%;
+  height: 35%;
+  position: absolute;
+}
+
+/* All encompassing Card container */
+.cards{
+  position: relative;
+  top: 0px;
+}
+
+/* Todays overview text styling */
+#overview {
+  color: var(--dark-mode-text);
+  position: absolute;
+  top: 540px;
+  left: 185px;
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+/* Dark Mode toggle styling */
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 70px;
+  left: 1540px;
+}
+
+.react-toggle {
+  transform: rotate(180deg);
+  left: 90px;
+  bottom: 43px;
+}
+
+.react-toggle-track {
+  background-color: hsl(230, 22%, 74%) !important;
+}
+
+:hover.react-toggle-track {
+  background-image: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%)) !important;
+  filter: brightness(115%);
+}
+
+.react-toggle--checked .react-toggle-track {
+  background-image: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%)) !important;
+}
+
+.react-toggle-thumb {
+  background-color: var(--toggle-knob) !important;
+  border: white !important;
+}
+
+/************* TOP CARD STYLING *************/
+
+  /* top card number (Primary) text styling */
+  .cardText {
+    color: var(--primary-text);
+    position: absolute;
+    font-size: 70px;
+    left: 80px;
+    top: 90px;
+  }
+
+  /* Styling for change in followers/likes/etc text */
+  .changeCount {
+    position: absolute;
+    left: 130px;
+    top: 232px;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(163, 72%, 41%);
+  }
+
+  /* Negative change arrow styling */
+  #arrowDown{
+    color: hsl(356, 69%, 56%);
+  }
+
+  /* top card follower/subscriber styling */
+  .followers{
+    color: var(--secondary-text);
+    position: absolute;
+    font-weight: 400;
+    font-size: 20px;
+    left: 80px;
+    top: 180px;
+  }
+
+  /* hover effects for top cards */
+  :hover.topCard{
+    filter: var(--hover-brightness);
+  }
+
+  /* top card hashtag styling */
+  .tag{
+    margin-left: 4%;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--secondary-text);
+  }
+
+  /* top cards logo styling */
+  .cardImg{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 30%;
+  }
+
+  /* top card upward arrow styling */
+  .upBigCard{
+    position: absolute;
+    left: 115px;
+    top: 240px;
+  }
+
+  /* Facebook line inside top card styling */
+  .topCardHeader{
+    background-color: hsl(208, 92%, 53%);
+    height: 5px;
+    border-radius: 5px;
+  }
+
+  /* Twitter line inside top card styling */
+  #tHeader {
+    background-color: hsl(203, 89%, 53%);
+  }
+
+  /* Instagram line inside top card styling */
+  #iHeader {
+    background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  }
+
+  /* Youtube line inside top card styling */
+  #yHeader {
+    background-color: hsl(348, 97%, 39%);
+  }
+
+  .topCards {
+    width: 100%;
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50vh;
+  }
+
+  /* Top Card styling */
+  .topCard {
+    position: relative;
+    cursor: pointer;
+    width: 18%;
+    height: 290px;
+    margin-top: 200px;
+    margin-left: 40px;
+    left: 40px;
+    float: left;
+
+  /* Handles flipping tiles once they're clicked */
+
+    &.flipped {
+      #front {
+        transform: rotateY(180deg);
+      }
+
+      #back {
+        transform: rotateY(0deg);
+      }
+    }
+
+    #front,
+    #back {
+      height: 100%;
+      width: 100%;
+      display: block;
+      position: absolute;
+      backface-visibility: hidden;
+      transform-style: preserve-3d;
+      transition: -webkit-transform ease 500ms;
+      transition: transform ease 500ms;
+    }
+
+    #front {
+      background-color: var(--card-background);
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+    }
+
+    /* Back of top card styling */
+    #back {
+      background-color: var(--card-background);
+      width: 100%;
+      height: 100%;
+      transform: rotateY(-180deg);
+    }
+  }
+
+  /* Styling for the line on the back of the top cards */
+  .backHr{
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    width: 90%;
+  }
+
+  /* Styling for the images on the back of the top cards */
+  .backGraph {
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    width: 300px;
+    height: 180px;
+  }
+
+  /* Top card back text styling */
+  .backText {
+    left: 20px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    white-space: nowrap;
+    position: absolute;
+    color: var(--secondary-text);
+  }
+
+
+
+/************* Bottom CARD STYLING *************/
+
+  /* Bottom Card styling */
+  .bottomCard {
+    background-color: var(--card-background);
+    position: absolute;
+    border-radius: 5px;
+    width: 330px;
+    height: 140px;
+    top: 665px;
+    left: 185px;
+  }
+
+  /* Bottom Card container */
+  .bottomCards {
+    position: absolute;
+    bottom: 50px;
+  }
+
+  /* bottom cards large number styling */
+  #bottomNumber{
+    font-size: 40px;
+    left: 25px;
+    top: 70px;
+  }
+
+  /* bottom cards descriptive text styling */
+  #bottomText {
+    top: 25px;
+    left: 10px;
+    color: var(--secondary-text);
+    position: absolute;
+  }
+
+  /* bottom cards logo styling */
+  #bottomImg{
+    left: 175px;
+    bottom: 25px;
+  }
+
+  /* bottom cards arrow styling */
+  .upSmallCard{
+    position: absolute;
+    left: 265px;
+    top: 108px;
+  }
+
+  /* Bottom card change in followers/likes/etc text */
+  #smallCardText {
+    left: 275px;
+    top: 100px;
+  }
+
+  /* Bottom card change in followers/likes/etc text... but make it red */
+  #smallCardTextRed{
+    left: 275px;
+    top: 100px;
+    color: hsl(356, 69%, 56%);
+  }
+
+  /* Bottom card hover effects */
+  :hover.bottomCard{
+    filter: var(--hover-brightness);
+  }
+
+  /* Bottom card positions */
+  #fbViews {
+    top: 625px;
+    left: 185px;
+  }
+
+  #fbLikes {
+    top: 625px;
+    left: 575px;
+  }
+
+  #tRt {
+    top: 800px;
+    left: 575px;
+  }
+
+  #tLikes {
+    top: 800px;
+    left: 185px;
+  }
+
+  #iLikes {
+    top: 625px;
+    left: 965px;
+  }
+
+  #iViews {
+    top: 625px;
+    left: 1355px;
+  }
+
+  #ytViews {
+    top: 800px;
+    left: 1355px;
+  }
+
+  #ytLikes {
+    top: 800px;
+    left: 965px;
+  }

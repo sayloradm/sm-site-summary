@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0a7da9b-1ae2-4881-bd6f-fedc7344df82" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25nQ3CQWGx1M5nV7bkvTqmFgygF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/dashboard/src/images" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx\frontend\dashboard\src\images" />
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx\frontend\dashboard" />
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx\frontend\dashboard\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx" />
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx\frontend" />
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx\frontend\dashboard\src\images" />
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx\frontend\dashboard\src" />
+      <recent name="C:\Users\Work\Documents\GitHub\dashboard-tsctbx\frontend\dashboard\public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0a7da9b-1ae2-4881-bd6f-fedc7344df82" name="Changes" comment="" />
+      <created>1646160169346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646160169346</updated>
+      <workItem from="1646160170764" duration="216000" />
+      <workItem from="1646160414777" duration="2429000" />
+      <workItem from="1646163085912" duration="5155000" />
+      <workItem from="1646168376759" duration="85000" />
+      <workItem from="1646168475521" duration="8071000" />
+      <workItem from="1646187893303" duration="13768000" />
+      <workItem from="1646201683777" duration="32000" />
+      <workItem from="1646250310846" duration="18348000" />
+      <workItem from="1646277584588" duration="11746000" />
+      <workItem from="1646327409739" duration="18659000" />
+      <workItem from="1646411814521" duration="16674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
